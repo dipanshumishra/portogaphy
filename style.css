@@ -170,7 +170,6 @@ label #cancel
 .header-button a
  {
    border-radius: 100px;
-   border: 2px solid #fff;
    background-color: none;
    padding: 5px 30px;
    color: #fff;
@@ -181,9 +180,12 @@ label #cancel
  {
    text-decoration: none;
    color: #255784;
-   background-color:  #000 ;
+   background-color:  #02aab0 ;
+
    padding: 5px 30px; 
    color: #fff;
+   
+   box-shadow: 0 0 10px  #02aab0 , 0 0 20px  #02aab0 ,0 0 40px  #02aab0 ;
   font-weight: 500;
    border: 20px;
  }  
@@ -196,7 +198,7 @@ label #cancel
  
 .header
 {
-    background: url('b123.jpg');
+    background: url('pimages/b1.jpg');
     filter: brightness(70%);
    clip-path:polygon(100% 0,100% 100%,50% 80%,0 100%,0 0);
      width: 100%;
