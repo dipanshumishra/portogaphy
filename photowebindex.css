@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+ 
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+body 
+     {
+         overflow-x: hidden;
+         font-family: 'Lato', sans-serif;
+         color:#505962;
+     }
+    .navbar li 
+            { background: transparent;
+            }
+     .navbar 
+               { background: linear-gradient(to right,#bdc3c7,#2c3e50);
+
+        font-weight: 500;
+        text-transform: uppercase;
+     }     
+     .navbar ul 
+     { background:transparent;
+     }     
+     #navbarSupportedContent 
+      { background:transparent;
+     }     
+.navbar img 
+              {
+                  width: 70px;
+                  height: 50px;
+                  border-radius: 100%;
+                  margin-right: 20px;
+                  border: 2px solid #fff;
+              }
+.nav-link
+          {
+              padding-right: 60px;
+              font-size: 20px;
+          }
+ #linker a:hover {
+    background-color:#fff;
+    border-radius: 5px;
+         color:black;
+  }
+  .carousel-inner img {
+    width: 100%;
+    position: relative;
+    height: 100%;
+  }
+
+.ph
+    {
+        background: linear-gradient(to right,linear-gradient(to right,#101357,orangered),linear-gradient(to right,#101357,orangered),#6a0dad); -webkit-background-clip: text;
+        color: transparent;
+        font-weight: 4000;
+    }
+#photos   h1
+          {
+               background:#000;
+               font-size: 25px;
+          }
+ #photos a
+           {
+               text-decoration: none;
+               color:rgb(47, 46, 46);
+           }          
+                     
+           
+
+#contact a:hover 
+                       {
+                               color:orange !important;
+                       }   
+
+#car a {
+    background: linear-gradient(to right,linear-gradient(to right,#101357,orangered),black);
+    border: 1px solid orangered;
+    box-shadow: 2px 2px 12px #fff;
+}
+.imagess img 
+              {
+                  border: 2px solid black;
+                  border-radius: 20% ;
+              }
+.circle img 
+            {
+                 border-radius: 50%;
+                 border: 2px solid black;
+
+            }              
+
+                
+              

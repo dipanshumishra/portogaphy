@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="photowebindex.css">
+    <link rel="stylesheet" href="bootstrap.min.cs">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    
+    <title>Document</title>
+</head>
+<body oncontextmenu="return false;" 
+style="background: linear-gradient(to bottom,#ff414e,#ff8928);">
+<div class="home">
+                                  <!--NAVBAR CODE-->
+      
+        <nav class="navbar fixed-top h- navbar-expand-md  mb-n5  navbar-dark "  >
+            <a class="navbar-brand pl-4"><img src="photoweb.photos\logo1.png" title="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav w-50 ml-auto  pr">
+                <li class="nav-item active  " id="linker">
+                  <a class="nav-link  pr-5" href="photowebindex.html" title="click here">HOME </a>
+                </li>
+                <li class="nav-item " id="linker">
+                  <a class="nav-link pr-5" href="photowebgallery.html" title="click here">GALLERY</a>
+                </li>
+               
+                  <li class="nav-item " id="linker">
+                    <a class="nav-link pr-5 " href="photowebjoin.html" title="click here">JOIN US +</a>
+                  </li>
+                  <li class="nav-item " id="linker">
+                    <a class="nav-link pr-5 " href="photowebcontact.html" title="click here">CONTACT +</a>
+                  </li>
+        </ul>
+        </div>
+          </nav>
+<br class="mb-5">
+
+
+
+<section class=" text-center   ">
+  <div class="row">
+  <div class="col-lg-6 col-md-6 col-12 pl-3 mt-5" id="text">
+                <img src="photoweb.photos\nikon.jpg" alt="nikon" title="nikon" class="img-fluid   " style=" border-radius:10px;box-shadow: 7px 12px 20px rgb(146, 145, 145);">
+  </div>
+  <div class=" col-lg-6 col-md-6 my-3 mt-5 pt-5  text-center col-12" id="center">
+      
+
+
+
+
+
+
+    <h2 style="color: #000;" class="ml-3">ENTER YOUR DETAILS</h2>
+    <form onsubmit="return validation()" >
+        <BR>
+          NAME:<input  type="text" size="30" id="name"  placeholder="enter your full name "><span  id="fullname"></span><br></br>
+      
+        PHONE.NO:<input  type="text" size="25" id="phone" placeholder="phone.no"><span id="phone.number"></span><br></br>
+       
+        ADDRESS:<input  type="text" size="27" id="add" placeholder="address"><span id="address"></span><br></br>
+       
+        PIN.CODE:<input   type="text" size="27" id="pin" placeholder="pin.code"><span id="pin.code"></span><br></br>
+     
+      <!-- <textarea rows="6" cols="35" name="comment" form="usrform" placeholder=" What's that quality in our team which makes us different from other photographers..."></textarea>
+     --> 
+     
+     <input type="submit" value="submit"  style="background-color: rgb(6, 136, 16); color:#000; " class="px-5 mx-5">
+     
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </div>
+  </div>
+
+</section>
+
+
+                                     <!--contact section-->
+ 
+<div class="jumbotron text-center mt-5 pt-5 mb-n5 text-light " style="background-color: rgb(24, 23, 23);">
+  <strong>Contact info</strong>
+  <p>63456789 <br> email@gmail.com</p>
+  <p >copyright <i class="fa fa-copyright"></i> 2020,design by DIPANSHU_MISHRA</p>
+
+  <div style="word-spacing: 15px;">
+    <a href="https://www.facebook.com/dipanshu.mishra2/" target="_blank" style="font-size: 25px; color:#5cbdb9;"><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/mishra_750" target="_blank" style="font-size: 25px; color:#5cbdb9;"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/december_.boy/" target="_blank" style="font-size: 25px; color:#5cbdb9;"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/dipanshu-m-4a594513a/" target="_blank" style="font-size: 25px; color:#5cbdb9;"><i class="fa fa-linkedin"></i></a>
+    </div>
+</div>
+ </div>
+
+
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        
+
+                                       <!--DISABLE INSPECT MODE -->
+<script>
+  document.keydown=function(e)
+{
+  if (event.keycode=123)
+   {
+     return false;
+   }
+  if (e.ctrlkey && e.shiftkey && e.keycode =='I'.charCodeAt(0))
+  {
+    return false;
+  }
+  if(e.ctrl && e.shiftkey && e.keycode=="J".charCodeAt(0))
+  {
+    return false;
+  }
+  if(e.ctrl && e.shiftkey && e.keycode=="U".charCodeAt(0))
+ {
+   return false;
+ }
+}
+</script>
+                                       <!--DISABLE INSPECT MODE END -->
+
+<script>
+  function validation()
+                        {
+                          var n=document.getElementById("name").value;                          
+                          var p=document.getElementById("phone").value;                          
+                          var a=document.getElementById("add").value;                          
+                          var pin=document.getElementById("pin").value;                          
+                         
+                          if(n=="")
+                          {
+                            document.getElementById("fullname").innerHTML="** please fill your full name";
+                          return false;
+                          }
+                          if(p=="")
+                          {document.getElementById("phone").innerHTML="** please fill your number";
+                          return false;
+                          }
+                          if(a=="")
+                          {document.getElementById("address").innerHTML="** please fill your adress";
+                          return false;
+                          }
+                          if(pin=="")
+                          {document.getElementById("pin.code").innerHTML="** please fill pin number";
+                          return false;
+                          }
+                        
+                          else
+                           alert ("thank you for your response");
+                           return true;
+                        }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
